@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    --bg-color: radial-gradient(#003, #000);
+    background: radial-gradient(#003, #000);
     min-height: 100vh;
     display:flex;
     align-items:center;
     justify-content: center;
-    background: var(--bg-color-);
 }
 .box {
     position: relative;
@@ -25,7 +24,7 @@ body {
     background: transparent;
     border-bottom: 40px solid transparent;
     transform-origin: bottom;
-    transform: rotate(calc(22.5 deg * var(--i)))
+    transform: rotate(calc(22.5deg * var(--i)))
 }
 .box span::before {
     content: "";
